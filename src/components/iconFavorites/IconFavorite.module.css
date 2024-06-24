@@ -1,0 +1,23 @@
+.box {
+  position: relative;
+}
+
+.icon {
+  font-size: 3rem;
+  fill: rgb(75, 0, 0);
+  position: relative;
+}
+
+.counter {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: -5px;
+  left: -10px;
+  padding: 1px 8px 3px;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 1px solid rgb(75, 0, 0);
+  font-weight: 700;
+}/*# sourceMappingURL=IconFavorite.module.css.map */

@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+
+  &__input {
+    border: 3px solid #dedba6;
+    height: 40px;
+    font-size: 1.4rem;
+    border-radius: 20px 0 0 20px;
+    padding-left: 15px;
+
+    &::placeholder {
+      padding: 5px;
+      font-size: 1.3rem;
+    }
+
+    &:focus {
+      border: 3px solid #dedba6;
+      outline: none;
+      box-shadow: 0 0 5px rgb(0, 0, 0, 0.2);
+    }
+  }
+
+  &__button {
+    width: 50px;
+    background: none;
+    border: 3px solid #dedba6;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    padding-right: 5px;
+    transition: all 0.3s;
+
+    &:hover {
+      box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+    }
+
+    &:hover .form__button_icon {
+      fill: green;
+    }
+
+    &_icon {
+      font-size: 1.3rem;
+      fill: rgb(163, 173, 235);
+      transition: all 0.3s;
+    }
+  }
+}

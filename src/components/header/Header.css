@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  background: rgb(226, 232, 254);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.header__title {
+  text-transform: uppercase;
+  font-size: 3rem;
+}/*# sourceMappingURL=Header.css.map */

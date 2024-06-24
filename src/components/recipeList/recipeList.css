@@ -1,0 +1,21 @@
+.recipeList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.recipeList__item {
+  transition: all 0.3s;
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+.recipeList__item:hover {
+  border: 1px solid rgba(122, 0, 0, 0.4);
+  border-radius: 20px;
+}
+
+.show-more {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=recipeList.css.map */

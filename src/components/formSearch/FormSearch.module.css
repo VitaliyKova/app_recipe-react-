@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+}
+.form__input {
+  border: 3px solid #dedba6;
+  height: 40px;
+  font-size: 1.4rem;
+  border-radius: 20px 0 0 20px;
+  padding-left: 15px;
+}
+.form__input::-moz-placeholder {
+  padding: 5px;
+  font-size: 1.3rem;
+}
+.form__input::placeholder {
+  padding: 5px;
+  font-size: 1.3rem;
+}
+.form__input:focus {
+  border: 3px solid #dedba6;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.form__button {
+  width: 50px;
+  background: none;
+  border: 3px solid #dedba6;
+  border-left: none;
+  border-radius: 0 20px 20px 0;
+  padding-right: 5px;
+  transition: all 0.3s;
+}
+.form__button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.form__button:hover .form__button_icon {
+  fill: green;
+}
+.form__button_icon {
+  font-size: 1.3rem;
+  fill: rgb(163, 173, 235);
+  transition: all 0.3s;
+}/*# sourceMappingURL=FormSearch.module.css.map */

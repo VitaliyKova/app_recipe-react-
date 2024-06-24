@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.recipe {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 15px;
+  width: 45%;
+  padding: 15px;
+  background: rgb(241, 238, 230);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 20px;
+}
+.recipe__shot {
+  width: 220px;
+  height: 220px;
+}
+.recipe__title {
+  font-size: 1.2rem;
+  max-width: 84%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* количество видимых строк */
+  -webkit-box-orient: vertical;
+}
+.recipe__ingredients {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* количество видимых строк */
+  -webkit-box-orient: vertical;
+}
+.recipe__subtitle {
+  text-align: left;
+  font-size: 1.1rem;
+}
+.recipe__favorites {
+  position: absolute;
+  right: 20px;
+}/*# sourceMappingURL=recipe.css.map */
